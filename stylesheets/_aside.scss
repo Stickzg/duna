@@ -1,0 +1,101 @@
+.aside{
+    width: 30%;
+    padding-left: 50px;
+    padding-right: 25px;
+
+    & h2{
+        font-size:17px;
+        text-transform: uppercase;
+    }
+    & a{
+        color: $blue;
+    }
+    & h1,
+    & .price{
+        font-size:24px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    & h1
+    {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    & ul{
+        padding: 25px 0;
+    }
+    & li img{
+        width: 50px;
+        height: 50px;
+    }
+    & li{
+        border: 2px solid transparent;
+    }
+    & li.active,
+    & li:hover{
+        border: 2px solid black;
+    }
+    & .size{
+        width: 200px;
+    }
+    & select{
+        
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        background: white;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        border: 1px solid black;
+        height: 50px;
+        width: 200px;
+    }
+    & .size{
+        width: 200px;
+    }
+    & .amount{
+        width: 100px;
+    }
+    & button[type="submit"]{
+        height: 50px;
+        width: 200px;
+        background: $red;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        border: 0;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    & .property p{
+        margin-top: 20px;
+    }
+    & .property:nth-of-type(2){
+        border-top: 1px solid $lightgrey;
+        border-bottom: 1px solid $lightgrey;
+        padding: 20px 0;
+    }
+    & .property h3{
+        display: inline-block;
+        font-weight: bold;
+        text-transform: uppercase;
+        width:calc(99% - 30px);
+    }
+    & .property p{
+        color: $lightgrey;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.5;
+        &.hidden{
+            display: none;
+        }
+    }
+    & .property button{
+        display: inline-block;
+        background: transparent;
+        border: 0;
+        font-size: 16px;
+        font-weight: bold;
+        width: 25px;
+    }
+}

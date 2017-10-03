@@ -1,0 +1,86 @@
+header{
+    padding: 0 100px 0 35px;
+    border-top: 2px solid red;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    background: white;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(117,117,117,0.12);
+    -moz-box-shadow: 10px 10px 10px 0px rgba(117,117,117,0.12);
+    box-shadow: 10px 10px 10px 0px rgba(117, 117, 117, 0.12);
+
+&.inline{
+    justify-content: space-between;
+    }
+ a {
+    color: $blue;
+    font-weight: bold;
+    }
+    &.active{
+        color: $red;
+    }
+}
+a.logo{
+    color: black;
+}
+
+
+.logo{
+    font-size: 18px;
+
+    & img{
+        width: auto;
+        height: 100px;
+        margin-right: 10px;
+    }
+    & strong{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+.cart img{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px dashed lightgrey;
+
+    & p{
+        font-size: 12px;
+    }
+    & a{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+}
+
+
+nav li{
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* breadcrumb */
+.breadcrumb{
+    padding-left: 35px;
+
+    & li,
+    & a{
+        color: $lightgrey;
+    }
+    & a{
+        padding: 0 5px; 
+    }
+    & a:hover{
+        color: $red;
+    }
+    & a.active{
+        font-weight: bold;
+        color: $red;
+    }
+}
